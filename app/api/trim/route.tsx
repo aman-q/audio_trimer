@@ -25,3 +25,5 @@ export async function POST(req: NextRequest) {
       .run();
   });
 }
+
+export const handleRequest = POST;
